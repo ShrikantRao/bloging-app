@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 4,
   },
-  listTitle: {fontSize: 14, fontWeight: '400'},
+  listTitle: {fontSize: 14, fontWeight: '400', textTransform: 'capitalize'},
   listBody: {fontSize: 14, color: '#7f7f7f', marginTop: 4},
 });
 

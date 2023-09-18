@@ -23,7 +23,9 @@ export type NavigatorParamList = {
 const HomeNavigator = () => {
   const Drawer = createDrawerNavigator<NavigatorParamList>();
   return (
-    <Drawer.Navigator drawerContent={CustomDrawerContent}>
+    <Drawer.Navigator
+      drawerContent={CustomDrawerContent}
+      backBehavior="history">
       <Drawer.Screen name={RouteNames.DashboardScreen} component={Dashboard} />
       <Drawer.Screen name={RouteNames.BlogsScreen} component={Blogs} />
       <Drawer.Screen

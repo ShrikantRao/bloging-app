@@ -4,7 +4,7 @@ import {API_URL as baseURL} from '@env';
 export const apiFetch = async (apiRoute: string, init?: AxiosRequestConfig) => {
   const instance = axios.create({
     baseURL,
-    timeout: 2000,
+    timeout: 5000,
     headers: {
       Accept: 'application/vnd.api+json',
     },

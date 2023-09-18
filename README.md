@@ -7,8 +7,10 @@ for signin I have used Context API. Where Signin page only consist of a "Signin"
 for blogs I have used RTK. On Blogs page render/mount blogs api get called and the value is loaded to redux store.
 
 
->**Note**: Editing on Blog is not implemented yet.
+>**Note**: Context and RTK both are used for representation purpose, else these can be achieved using any one also. Editing on Blog is not implemented yet.
 
+## .env
+create a file `.env` and add line `API_URL=https://jsonplaceholder.typicode.com`.
 
 # Basic setup/instalation
 
