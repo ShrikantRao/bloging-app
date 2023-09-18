@@ -1,8 +1,16 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# QDB
 
-# Getting Started
+## Signin -
+for signin I have used Context API. Where Signin page only consist of a "Signin" button. Clicking this button triggers signin function with randon user ID.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Blogs -
+for blogs I have used RTK. On Blogs page render/mount blogs api get called and the value is loaded to redux store.
+
+
+>**Note**: Editing on Blog is not implemented yet.
+
+
+# Basic setup/instalation
 
 ## Step 1: Start the Metro Server
 
