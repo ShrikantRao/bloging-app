@@ -2,9 +2,9 @@ import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import CustomDrawerContent from './components/CustomDrawerContent';
 
-import Dashboard from './screens/Dashboard';
-import Blogs from './screens/Blogs';
-import Blog from './screens/Blog';
+import Dashboard from './screens/dashboard/Dashboard';
+import Blogs from './screens/blog/Blogs';
+import Blog from './screens/blog/Blog';
 
 export enum RouteNames {
   DashboardScreen = 'Dashboard',

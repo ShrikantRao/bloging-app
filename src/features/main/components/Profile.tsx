@@ -7,10 +7,7 @@ function Profile() {
 
   return (
     <View style={styles.container}>
-      <Image
-        source={require('../assets/profile-circle.png')}
-        style={styles.logo}
-      />
+      <Image source={require('../assets/profile.png')} style={styles.logo} />
       <View style={styles.profileView}>
         <Text style={styles.txtHello}>Hello</Text>
         <Text style={styles.profileName}>{authContext.state.user?.name}</Text>

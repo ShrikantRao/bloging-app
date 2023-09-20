@@ -1,5 +1,5 @@
 import {combineReducers} from '@reduxjs/toolkit';
-import blogReducer from '../../features/main/blogSlice';
+import blogReducer from '../../features/main/screens/blog/blogSlice';
 
 const rootReducer = combineReducers({
   blog: blogReducer,

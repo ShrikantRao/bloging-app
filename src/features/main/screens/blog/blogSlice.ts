@@ -1,6 +1,6 @@
-import {blogSelector} from '../../core/store/selectors';
+import {blogSelector} from '../../../../core/store/selectors';
 import {createSelector, createSlice, PayloadAction} from '@reduxjs/toolkit';
-import {Blogs} from '../../core/api/blogs';
+import {Blogs} from '../../../../core/api/blogs';
 
 interface BlogSliceState {
   blogs: Blogs | undefined;

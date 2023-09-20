@@ -10,7 +10,8 @@ const RootNavigator = () => {
     return <HomeNavigator />;
   }
 
-  return <AuthNavigator />;
+    // return <HomeNavigator />;
+    return <AuthNavigator />;
 };
 
 export default RootNavigator;
